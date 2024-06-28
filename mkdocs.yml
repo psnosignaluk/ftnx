@@ -1,0 +1,22 @@
+site_name: FTNX
+site_description: A next-generation Fortanix DSM client.
+site_url: https://ftnx.theblackwall.uk/
+
+theme:
+  name: 'material'
+  palette:
+    - scheme: 'default'
+      media: '(prefers-color-scheme: light)'
+      toggle:
+        icon: 'material/lightbulb'
+        name: "Switch to dark mode"
+    - scheme: 'slate'
+      media: '(prefers-color-scheme: dark)'
+      primary: 'blue'
+      toggle:
+        icon: 'material/lightbulb-outline'
+        name: "Switch to light mode"
+
+repo_name: psnosignaluk/ftnx
+repo_url: https://github.com/psnosignaluk/ftnx/
+edit_uri: ""
